@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+</head>
+<body>
+    <h1 id="aleksei-chibiriaev">Aleksei Chibiriaev</h1>
+        <h2 id="contact-information">Contact Information</h2>
+            <ul>
+                <li>phone: +7(999)-999-9999;</li>
+                <li>email: _firebird_@gmail.com</li>
+                <li>telegram: @alexey_chi</li>
+            </ul>
+        <h2 id="about-myself">About Myself</h2>
+            <p>I completed the Frontend track on the Hexlet platform, where I built a solid foundation in modern web development. While I do not yet have commercial experience, I have independently developed several frontend projects, applying best practices and continuously improving my skills. I am a responsible and highly motivated person with a strong work ethic and a genuine interest in learning new technologies. I am eager to contribute to a professional team and grow as a frontend developer.</p>
+        <h2 id="skills">Skills</h2>
+            <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript, TypeScript(Basics)</li>
+            <li>React, Redux Toolkit, React Router, Fustify.js</li>
+            <li>Socket.IO, Formik, Yup, i18next,</li>
+            <li>Git, GitHub</li>
+            </ul>
+        <h2 id="code-examples">Code Examples</h2>
+            <p><strong><em>5 kyu KATA from</em></strong> <a href="https://www.codewars.com/kata/52597aa56021e91c93000cb0" title="Moving Zeros To The End">CODEWARS</a> Moving Zeros To The End</p>
+            <p>Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
+            <p><code>moveZeros([false,1,0,1,2,0,1,3,&quot;a&quot;]) // returns[false,1,1,2,1,3,&quot;a&quot;,0,0]</code></p>
+            <pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">moveZeros</span>(<span class="hljs-params">arr</span>) </span>{
+                <span class="hljs-keyword">const</span> notNull = arr.filter(<span class="hljs-function">(<span class="hljs-params">i</span>) =&gt;</span> i !== <span class="hljs-number">0</span>);
+                <span class="hljs-keyword">const</span> nulls = arr.filter(<span class="hljs-function">(<span class="hljs-params">i</span>) =&gt;</span> i === <span class="hljs-number">0</span>);
+                <span class="hljs-keyword">return</span> [...notNull, ...nulls];
+            }
+            </code></pre>
+        <h2 id="work-experience">Work Experience</h2>
+            <ul>
+                <li><a href="https://github.com/AlexeyChi/online-chat" title="Scack Chart clone">Slack Chat</a></li>
+            </ul>
+            <p>Simplified version of the online messenger Slack. The application allows adding new, deleting, and renaming channels, as well as communicating with users.</p>
+            <p><strong><em>Technology stack:</em></strong> JavaScript, React, Redux Toolkit, React Router, React Bootstrap, React-Toastery, Socket.IO, Formik, Yup, i18next</p>
+            <ul>
+                <li><a href="https://github.com/AlexeyChi/rss-agregator" title="RSS Agregator">RSS Agregator</a></li>
+            </ul>
+            <p>Web application that allows you to stay up to date on your favorite websites. Enter the source RSS feed and click add. The app will start tracking changes and adding new articles as soon as they are published. You can view a short summary or read the entire article. Now all the information is in one place, it’s very convenient and saves time.</p>
+            <p><strong><em>Technology stack:</em></strong> JavaScript, Webpack, Bootstrap, i18next</p>
+        <h2 id="education">Education</h2>
+        <ul>
+            <li>University: Lobachevsky University </li>
+            <li>Courses:
+                <ul>
+                    <li>Frontend developer on the <a href="https://ru.hexlet.io/programs/frontend" title="Frontend developer course">Hexlet</a> (Comleted)</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            </li>
+        </ul>
+        <h2 id="english-language">English Language</h2>
+        <ul>
+            <li>Russian - Native</li>
+            <li>English - B1 (I study with my tutor 1 - 2 times each week)</li>
+        </ul>
+</body>
+</html>
